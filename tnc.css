@@ -1,0 +1,158 @@
+/*{
+    border: 1px solid red;
+}*/
+
+
+a{
+    text-decoration: none;
+    color: rgb(249, 249, 252);
+}
+
+a:hover{   
+    color: rgb(235, 160, 23);
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+                 1px 1px 0px #000,
+                 1px -1px 0px #000,
+                 -1px -1px 0px #000;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+
+
+ul{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 0px;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+
+.navbar-list{
+    color: white;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+h1{
+    background-color: darkslategray;
+    font-family: fantasy;    
+    color: cadetblue;
+    padding: 20px;
+
+}
+
+
+p{
+    font-family:cursive;
+    color: black;
+    padding: 1px;
+}
+
+
+
+strong{
+    font-family: cursive;
+    color: darkslategray;
+}
+
+.tnc-pg{
+    list-style-type: none;
+   margin-top: 60px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cl{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cl-2{
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.ci{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+}
+
+.cr{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+}
